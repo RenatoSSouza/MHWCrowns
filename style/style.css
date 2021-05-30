@@ -1,7 +1,7 @@
 body {
     justify-content: center;
     display: flex;
-    background: #5c470fad url(https://i.redd.it/z4zzhmrxtlj11.jpg) repeat;
+    background: #5e5d5aad;
     background-position-y: top;
     background-position-x: center;
     background-size: 1774.670px;
@@ -37,12 +37,6 @@ img {
     height: 64px;
 }
 
-input {
-    border: 1px solid black;
-    width: 64px;
-    height: 64px;
-}
-
 .Iceborn,
 .World {
     display: flex;
@@ -51,9 +45,15 @@ input {
 }
 
 .Iceborn {
-    color: #0F95D4;
+    color: #120fd49d;
 }
 
 .World {
     color: #42545C;
+}
+
+.minicrown,
+.largecrown {
+    display: none;
+    align-items: center;
 }
